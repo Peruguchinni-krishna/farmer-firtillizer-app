@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fertilizer App Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Dashboard</h1>
+      <p>Learn how fertilizer recommendations are generated.</p>
+    </div>
+    <a class="nav-link" href="index.html">Home</a>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About this app</h2>
+      <p>This tool helps farmers choose the right fertilizer based on soil nutrients and weather conditions.</p>
+    </section>
+
+    <section class="card">
+      <h2>Fertilizer guide</h2>
+      <ul>
+        <li><strong>Urea</strong> - Nitrogen rich fertilizer for leafy growth.</li>
+        <li><strong>DAP</strong> - Phosphorus rich fertilizer for strong roots.</li>
+        <li><strong>MOP</strong> - Potassium rich fertilizer for plant immunity.</li>
+        <li><strong>Balanced NPK</strong> - Use when N, P, and K are all adequate.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Local Weather</h2>
+      <div id="weatherInfo">Weather loading…</div>
+    </section>
+  </main>
+
+  <script src="js/weather.js"></script>
+</body>
+
+</html>

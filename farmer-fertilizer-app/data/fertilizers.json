@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Urea",
+    "type": "Nitrogen",
+    "usage": "Boosts leaf growth"
+  },
+  {
+    "name": "DAP",
+    "type": "Phosphorus",
+    "usage": "Improves root strength"
+  },
+  {
+    "name": "MOP",
+    "type": "Potassium",
+    "usage": "Improves immunity"
+  }
+]
